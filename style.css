@@ -54,7 +54,11 @@ li:first-child,li:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.game-top + li, .finaltext {
   color: #555;
+  font-weight: normal;
 }
 
 .right .game span {
@@ -71,4 +75,11 @@ li:first-child,li:last-child {
 .right .game-bottom, .right .game-top + li {
   border-left:1px solid #aaa; 
   border-right: 0;
+}
+
+.finaltext {
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
 }
