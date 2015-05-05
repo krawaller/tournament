@@ -7,6 +7,7 @@ main {
 
 main, ul {
   display:-webkit-flex;
+  display: flex;
 }
 
 ul {
@@ -80,6 +81,7 @@ li:first-child,li:last-child {
 .finaltext {
   width: 200px;
   text-align: center;
+  margin-left: 100px;
   margin-top: 20px;
   position: absolute;
 }
